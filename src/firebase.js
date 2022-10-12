@@ -11,16 +11,17 @@ import "firebase/firestore";
 //     appId: "1:1027981883218:web:f62f32ffe8e5701f0f2c8b",
 //     measurementId: "G-0YMF5ZZL8N"
 //   };
+// For Firebase JS SDK v7.20.0 and later, measurementId is optional
 const firebaseConfig = {
-  apiKey: "AIzaSyD3c-g9buyeJnYZ-6_1NDZ8TQz1n4fhKn4",
-  authDomain: "whatsapp-73989.firebaseapp.com",
-  databaseURL: "https://whatsapp-73989.firebaseio.com",
-  projectId: "whatsapp-73989",
-  storageBucket: "whatsapp-73989.appspot.com",
-  messagingSenderId: "166827944927",
-  appId: "1:166827944927:web:28451dca14499bc919326a",
-  measurementId: "G-E7CXYXDVYG",
+  apiKey: "AIzaSyAY3hmyzVo3PzxkgEjH8-NOchysoRSBJgY",
+  authDomain: "watsapp-clone-62153.firebaseapp.com",
+  projectId: "watsapp-clone-62153",
+  storageBucket: "watsapp-clone-62153.appspot.com",
+  messagingSenderId: "406176466774",
+  appId: "1:406176466774:web:e82b761102b16ff77038f7",
+  measurementId: "G-KN1N0NXS58"
 };
+
 const firebaseApp = firebase.initializeApp(firebaseConfig);
 const db = firebaseApp.firestore();
 const auth = firebase.auth();
@@ -28,3 +29,6 @@ const provider = new firebase.auth.GoogleAuthProvider();
 
 export { auth, provider };
 export default db;
+
+
+
